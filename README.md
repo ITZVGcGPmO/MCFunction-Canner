@@ -10,3 +10,6 @@ you may change existing `.mcfunction` scripts to `.mccanner`, and they will be p
 
 ## Warning
 This tool has only been tested with 1.13 command syntax. supposidly a "downgrade" tool will be in the works.
+
+### Contributions
+Did you change something? Create a fork, upload your changes, and submit a pull request!

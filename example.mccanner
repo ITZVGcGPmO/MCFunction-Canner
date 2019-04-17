@@ -1,0 +1,21 @@
+for a in -1 to 3: # range of numbers
+    say $a
+for a, b, c in test, yeah, abc, # array-like
+               idk, really, woah: # iteration
+    say $a $b
+    say wow, thanks $c!
+for s in hopper: # do magic for all the slots
+    say $s
+    data get block ~ ~ ~ $s
+for j in idkwhat: # i don't know what this is!
+    say $j
+execute @a run: # codeblocks, they're amazing.
+    say jeff!
+    execute @e[sort=nearest,limit=1,type=!player] run:
+        say i smell pepper!
+execute as @e[type=bat] run say squeaky squeaky ;)
+function idk # why bother with namespaces?
+function test:idk
+execute while not entity @s run:
+    say hello!
+execute @a run say Hey!, my oven! # as+at+facing

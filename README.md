@@ -5,3 +5,8 @@ loops and code blocks, yet still parses unchanged .mcfunction scripts
 
 ## Usage
 Place `canner.py` inside your minecraft directory and execute it with [python >=3.6](https://www.python.org/downloads/source/). It will "can" `.mccanner` scripts down into `.mcfunction` form, then scan for changes every .5s in the background.
+
+you may change existing `.mcfunction` scripts to `.mccanner`, and they will be parsed correctly
+
+## Warning
+This tool has only been tested with 1.13 command syntax. supposidly a "downgrade" tool will be in the works.
